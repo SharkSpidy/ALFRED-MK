@@ -91,6 +91,11 @@ pynvml                       # system_monitor + the HUD's GPU meter (NVIDIA)
 #   pip install pydub        # file_processor: audio metadata and conversion
 #                            #   (also needs ffmpeg on PATH for most formats)
 #   pip install mediapipe    # pushup_counter: elbow-angle rep detection
+#
+# Kinect 3D scanner / IR object detection (core/kinect + actions/kinect_scan.py):
+#   pip install pykinect2     # Kinect v2 — ALSO requires "Kinect for Windows SDK 2.0"
+#   pip install PyKinect      # Kinect v1 — ALSO requires "Kinect for Windows SDK 1.8"
+#   pip install freenect      # Xbox 360 Kinect via libfreenect (experimental)
 
 # ── Wake word ("Hey Alfred") ──────────────────────────────────────────────────
 # Installed as part of core dependencies. Model files are downloaded and verified

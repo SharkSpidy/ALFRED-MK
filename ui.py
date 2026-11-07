@@ -5803,6 +5803,7 @@ class CapabilitiesOverlay(QWidget):
             ("👁️  VISUAL RECON & MULTIMODAL", "#c084fc", [
                 ("Screen Capture Recon", "Captures active monitor screen and provides instant visual analysis and debugging."),
                 ("Live Webcam Stream", "Inspects webcam feed in the HUD or overlay for pair-programming and visual tasks."),
+                ("Kinect 3D Scanner", "Guided IR/depth object scan — place an object on a flat surface, rotate it, and view/export the point cloud ('3D scan')."),
                 ("Interactive Doc Review", "Provides structured document audits with severity markers (serious, caution, note)."),
             ]),
             ("⏰  ALARMS, TIMERS & SYNAPSE", "#ff5577", [
